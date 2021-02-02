@@ -1,5 +1,9 @@
 // importar os módulos
 const express = require('express');
+const db = require('./util/dbHelper');
+
+
+global.db = db.connection;
 // iniciar o objeto do express
 const app = express();
 // Escolhendo a porta do servidor
