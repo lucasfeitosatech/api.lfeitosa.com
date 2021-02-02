@@ -1,0 +1,22 @@
+{
+  "name": "api.lfeitosa.com",
+  "version": "1.0.0",
+  "description": "This is a API that supports front-end apps. ",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "NodeJS",
+    "JS",
+    "Express"
+  ],
+  "author": "Lucas Feitosa de Freitas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
