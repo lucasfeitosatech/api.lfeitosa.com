@@ -1,6 +1,5 @@
 // importar os módulos
 const express = require('express');
-const { createEngine } = require('express-react-views');
 // iniciar o objeto do express
 const app = express();
 // Escolhendo a porta do servidor
