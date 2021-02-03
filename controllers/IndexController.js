@@ -15,5 +15,38 @@ module.exports = {
          res.render('login.ejs',{message: message});
       }
     });
+  },
+  async urls(req,res){
+    var j = [
+      {
+        "chave": "BASE_URL",
+        "valor": "https://hom.tiquei.com.br/"
+      },
+      {
+        "chave": "EXTERNAS",
+        "valor": "https://hom.tiquei.com.br/accesstage-api-externas"
+      },
+      {
+        "chave": "PRODUTOS",
+        "valor": "https://hom.tiquei.com.br/accesstage-api-produtos"
+      },
+      {
+        "chave": "TIQUEI",
+        "valor": "https://hom.tiquei.com.br/accesstage-api-tiquei"
+      },
+      {
+        "chave": "OPERADORAS",
+        "valor": "https://hom.tiquei.com.br/accesstage-api-portal-operadoras"
+      },
+      {
+        "chave": "API_PORTAL",
+        "valor": "https://hom.tiquei.com.br/accesstage-api-portal"
+      },
+      {
+        "chave": "TIQUEI_ANTIGO",
+        "valor": "https://hom.tiquei.com.br/tiquei-api"
+      }
+    ];
+    res.send(j);
   }
 };
