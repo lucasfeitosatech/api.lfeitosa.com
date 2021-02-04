@@ -14,6 +14,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(require('./routes'));
 
+
+
 // parametrizar a porta de escuta
 app.listen((process.env.PORT || port), () => console.log(`\uD83C\uDF0F runing at http://localhost${port}`));
 
