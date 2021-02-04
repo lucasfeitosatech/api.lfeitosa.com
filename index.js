@@ -6,6 +6,10 @@ const db = require('./util/dbHelper');
 global.db = db.connection;
 // iniciar o objeto do express
 const app = express();
+var cors = require('cors') 
+app.use(cors())
+ 
+
 // Escolhendo a porta do servidor
 const port = 3000;
 // setando o local a onde vai ficar os arquivos da views
