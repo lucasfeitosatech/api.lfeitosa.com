@@ -24,27 +24,27 @@ module.exports = {
       },
       {
         "chave": "EXTERNAS",
-        "valor": "https://hom.tiquei.com.br/accesstage-api-externas"
+        "valor": "https://hom.tiquei.com.br/accesstage-api-externas/"
       },
       {
         "chave": "PRODUTOS",
-        "valor": "https://hom.tiquei.com.br/accesstage-api-produtos"
+        "valor": "https://hom.tiquei.com.br/accesstage-api-produtos/"
       },
       {
         "chave": "TIQUEI",
-        "valor": "https://hom.tiquei.com.br/accesstage-api-tiquei"
+        "valor": "https://hom.tiquei.com.br/accesstage-api-tiquei/"
       },
       {
         "chave": "OPERADORAS",
-        "valor": "https://hom.tiquei.com.br/accesstage-api-portal-operadoras"
+        "valor": "https://hom.tiquei.com.br/accesstage-api-portal-operadoras/"
       },
       {
         "chave": "API_PORTAL",
-        "valor": "https://hom.tiquei.com.br/accesstage-api-portal"
+        "valor": "https://hom.tiquei.com.br/accesstage-api-portal/"
       },
       {
         "chave": "TIQUEI_ANTIGO",
-        "valor": "https://hom.tiquei.com.br/tiquei-api"
+        "valor": "https://hom.tiquei.com.br/tiquei-api/"
       }
     ];
     res.send(j);
