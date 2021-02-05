@@ -45,6 +45,10 @@ module.exports = {
       {
         "chave": "TIQUEI_ANTIGO",
         "valor": "https://hom.tiquei.com.br/tiquei-api/"
+      },
+      {
+        "chave": "TIQUEI_TIQUEI",
+        "valor": "https://hom.tiquei.com.br/tiquei-tiquei/"
       }
     ];
     res.send(j);
